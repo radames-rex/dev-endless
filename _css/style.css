@@ -1,0 +1,75 @@
+/*BASE*/
+  /*reset*/
+    *{
+      margin:0;
+      padding:0;
+      list-style:none;
+      vertical-align:baseline;
+    }
+
+  a{
+
+  }
+
+  p{
+    font:0.9em Arial;
+    color: #646464;
+  }
+
+  h1{
+    margin: 0.9% 0 -1.5% 0;
+    font:3.0em fixedsys;
+  }
+
+  span{
+    font:2.0em fixedsys;
+  }
+/*LAYOUT*/
+  section{
+    width: 100%;
+    display: table;
+  }
+/*MODULES*/
+  .logo-header{
+    margin: 0.6% 0 0 0;
+    float: left;
+  }
+
+  .block-path{
+    margin: 1% 0 0 01%;
+    padding: 31% 0 0 0;
+    height: 60%;
+    width: 13%;
+    float: left;
+    display: block;
+    font: fixedsys;
+    text-align: center;
+    font:1em fixedsys;
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+  }
+/*STATES*/
+  .block-path:hover{
+    background-position: 100% 100%;
+  }
+/*THEMES*/
+  .front-dream{color:#580030; background-image: url('../_images/dream-sprite.png');}
+
+  .back-death{color:#41026d; background-image: url('../_images/death-sprite.png');}
+
+  .mobile-desire{color:#ea0001; background-image: url('../_images/desire-sprite.png');}
+
+  .design-delirium{color:#abcc00; background-image: url('../_images/delirium-sprite.png');}
+
+  .test-despair{color:#646464; background-image: url('../_images/despair-sprite.png');}
+
+  .security-destruction{color:#000; background-image: url('../_images/destruction-sprite.png');}
+
+  .infra-destiny{color:#321f01; background-image: url('../_images/destiny-sprite.png');}
+/*UTILITIES*/
+  @font-face {
+    font-family: fixedsys;
+    src: url("../_fonts/fixedsys.ttf");
+  }
+/*SHAME*/
